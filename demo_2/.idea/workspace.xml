@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4176bfe8-f133-4265-af24-f12209a37097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AboutComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ErrorComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavbarComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputFormComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputFormComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavbarComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StudentsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StudentsComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652797258189</updated>
-      <workItem from="1652797262395" duration="1302000" />
+      <workItem from="1652797262395" duration="7502000" />
     </task>
     <servers />
   </component>
