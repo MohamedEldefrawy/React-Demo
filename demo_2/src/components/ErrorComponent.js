@@ -8,8 +8,8 @@ export default class ErrorComponent extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Error</h1>
+            <div className={"d-flex justify-content-center align-content-center"}>
+                <h1>Error 404</h1>
             </div>
         )
     }
