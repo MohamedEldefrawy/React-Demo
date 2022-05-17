@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4176bfe8-f133-4265-af24-f12209a37097" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/StudentComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ErrorComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InputFormComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputFormComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StudentsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StudentsComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "/var/lib/snapd/snap/webstorm/257/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652797258189</updated>
-      <workItem from="1652797262395" duration="13545000" />
+      <workItem from="1652797262395" duration="16412000" />
     </task>
     <servers />
   </component>

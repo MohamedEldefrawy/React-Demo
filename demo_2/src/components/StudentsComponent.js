@@ -1,4 +1,5 @@
 import {Component} from "react";
+import {NavLink} from "react-router-dom";
 
 export default class StudentsComponent extends Component {
     constructor(props) {
@@ -13,7 +14,11 @@ export default class StudentsComponent extends Component {
         return (this.state.students.map((student, index) => {
             return (
                 <tr key={index}>
-                    <td>{student.name}</td>
+                    <td>
+                        <NavLink to={"/student/" + student.name}>
+                            {student.name}
+                        </NavLink>
+                    </td>
                     <td>{student.age}</td>
                 </tr>);
         }));
@@ -21,7 +26,7 @@ export default class StudentsComponent extends Component {
 
     render() {
         return (
-            <table className="table">
+            <table className="table table-bordered table-striped table-hover">
                 <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -29,7 +34,7 @@ export default class StudentsComponent extends Component {
                 </tr>
                 </thead>
                 <tbody>
-                    {this.renderStudents()}
+                {this.renderStudents()}
                 </tbody>
             </table>
         )
