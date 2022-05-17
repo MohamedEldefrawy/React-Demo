@@ -22,16 +22,20 @@ export class SlideShowComponent extends Component {
                      src={this.imagePrefix + this.state.selectedImage}/>
                 <div>
                     <input type={"button"} value="Next" onClick={(event) => {
-                        this.state.index = this.state.index < this.state.images.length - 1 ? ++this.state.index : 0;
-                        this.setState({
-                            selectedImage: this.state.images[this.state.index]
-                        });
+                        if (this.state.index < this.state.images.length - 1) {
+                            this.setState({index: ++this.state.index})
+                            this.setState({
+                                selectedImage: this.state.images[this.state.index]
+                            });
+                        }
                     }}/>
                     <input type={"button"} value="Prev" onClick={(event) => {
-                        this.state.index = this.state.index > 0 ? --this.state.index : this.state.images.length - 1;
-                        this.setState({
-                            selectedImage: this.state.images[this.state.index]
-                        });
+                        if (this.state.index > 0) {
+                            this.setState({index: --this.state.index})
+                            this.setState({
+                                selectedImage: this.state.images[this.state.index]
+                            });
+                        }
                     }}/>
                     <input type={"button"} value="Play" onClick={(event) => {
                         let id = setInterval(() => {
