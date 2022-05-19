@@ -2,7 +2,7 @@ import ArtistSummaryComponent from "./ArtistSummaryComponent";
 
 let ArtistsComponent = () => {
     return (
-        <div className={"row"}>
+        <div>
             <ArtistSummaryComponent/>
         </div>
     )
