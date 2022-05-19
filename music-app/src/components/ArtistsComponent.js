@@ -18,7 +18,7 @@ let ArtistsComponent = () => {
         if (artists.length > 0)
             return artists.map(artist => {
                 return (
-                    <div className={"col-sm-12 col-md-4 col-lg-3"}>
+                    <div className={"col-sm-12 col-md-4 col-lg-3 mb-5"}>
                         <ArtistSummaryComponent key={artist.id} artistDetails={artist}/>
                     </div>
                 )
@@ -50,7 +50,8 @@ let ArtistsComponent = () => {
             <div className={"row text-center"}>
                 <NavLink to={"/"} className={"btn-app full-height full-width"}>Home</NavLink>
             </div>
-            <div className={"row"}>
+
+            <div className={"row p-5"}>
                 {renderArtists(artists)}
             </div>
         </div>
