@@ -19,6 +19,7 @@ function App() {
                     <Route path="/artists" element={<ArtistsComponent/>}/>
                     <Route path="/artists/:id" element={<ArtistDetailsComponent/>}/>
                     <Route path="/albums/:id" element={<AlbumsComponent/>}/>
+                    <Route path="/albumsDetails/:id" element={<AlbumsComponent/>}/>
                     <Route path="*" element={<NotFoundComponent/>}/>
                 </Routes>
             </div>
