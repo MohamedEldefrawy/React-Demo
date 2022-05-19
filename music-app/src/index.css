@@ -4,7 +4,8 @@
     background-position: center;
     height: 100vh;
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin: 0;
     opacity: 0.8;
 }
@@ -53,11 +54,11 @@ hr {
     width: 100%;
 }
 
-.not-found-text
-{
+.not-found-text {
     font-size: 5rem;
     color: white;
 }
+
 /*.flip-card {*/
 /*    background-color: transparent;*/
 /*    width: 300px;*/

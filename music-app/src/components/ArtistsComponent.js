@@ -1,6 +1,5 @@
 import ArtistSummaryComponent from "./ArtistSummaryComponent";
 import {useEffect, useState} from "react";
-import {NavLink} from "react-router-dom";
 import {ArtistService} from "../services/ArtistService";
 
 let ArtistsComponent = () => {
@@ -38,10 +37,6 @@ let ArtistsComponent = () => {
 
     return (
         <div>
-            <div className={"row text-center"}>
-                <NavLink to={"/"} className={"btn-app full-height full-width"}>Home</NavLink>
-            </div>
-
             <div className={"row p-5"}>
                 {renderArtists(artists)}
             </div>

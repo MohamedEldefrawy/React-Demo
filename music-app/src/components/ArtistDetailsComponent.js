@@ -12,7 +12,7 @@ let ArtistDetailsComponent = () => {
 
     let renderArtist = () => {
         return (
-            <div className={"d-flex flex-column justify-content-center align-items-center artist-text-color"}>
+            <div className={"d-flex flex-column justify-content-center align-items-center artist-text-color p-5"}>
                 <img className={"img-fluid"} src={`/covers/${artist.cover}.jpg`} alt={"artist name"}/>
                 <h1>
                     {artist.name}
@@ -23,7 +23,7 @@ let ArtistDetailsComponent = () => {
                     <p className={"text-center artist-bio"}>{artist.bio}</p>
                 </section>
                 <hr/>
-                <section className={"text-center"}>
+                <section className={"text-center mb-4"}>
                     <h2>Albums</h2>
                     <div className={"d-flex flex-wrap img-cube m-auto"}>
                         {renderAlbumsImages()}
@@ -58,9 +58,6 @@ let ArtistDetailsComponent = () => {
 
     return (
         <div>
-            <div className={"row text-center"}>
-                <NavLink to={"/"} className={"btn-app full-height full-width"}>Home</NavLink>
-            </div>
             {renderArtist()}
         </div>
     )
