@@ -6,6 +6,7 @@ import ArtistDetailsComponent from "./components/ArtistDetailsComponent";
 import NotFoundComponent from "./components/NotFound";
 import Navbar from "./components/Navbar";
 import HomeComponent from "./components/HomeComponent";
+import AlbumsComponent from "./components/AlbumsComponent";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/" element={<HomeComponent/>}/>
                     <Route path="/artists" element={<ArtistsComponent/>}/>
                     <Route path="/artists/:id" element={<ArtistDetailsComponent/>}/>
+                    <Route path="/albums/:id" element={<AlbumsComponent/>}/>
                     <Route path="*" element={<NotFoundComponent/>}/>
                 </Routes>
             </div>

@@ -1,6 +1,5 @@
 import {NavLink, useParams} from "react-router-dom";
-import {useState} from "react";
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import {ArtistService} from "../services/ArtistService";
 
 let ArtistDetailsComponent = () => {
