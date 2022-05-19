@@ -1,4 +1,4 @@
-let AlbumsSummaryComponent = () => {
+let AlbumsComponent = () => {
     return (
         <div className={"row"}>
             <h1>Hello from albums summary</h1>
@@ -6,4 +6,4 @@ let AlbumsSummaryComponent = () => {
     )
 }
 
-export default AlbumsSummaryComponent;
+export default AlbumsComponent;
