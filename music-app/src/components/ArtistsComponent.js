@@ -1,12 +1,14 @@
 import ArtistSummaryComponent from "./ArtistSummaryComponent";
 import {useEffect, useState} from "react";
 import {NavLink} from "react-router-dom";
+import {ArtistService} from "../services/ArtistService";
 
 let ArtistsComponent = () => {
 
     let [artists, setArtists] = useState([]);
     let [errors, setError] = useState("");
     const url = "http://localhost:3500/artists";
+    let artistSerivce = new ArtistService();
 
     // ComponentDidUpdate
     useEffect(() => {
@@ -25,27 +27,16 @@ let ArtistsComponent = () => {
             });
         else
             return (<div>
-                No data available
+                <h1>errors</h1>
             </div>)
     }
 
     // ComponentDidMount
     useEffect(() => {
-        fetch(url)
-            .then((response) => {
-                return response.json()
-            })
-            .then((data) => {
-                setArtists(data);
-            })
-            .catch((err) => {
-                setError(err);
-                console.log(errors)
-            })
+        artistSerivce.getAll(setArtists, setError);
     }, []);
 
     return (
-
         <div>
             <div className={"row text-center"}>
                 <NavLink to={"/"} className={"btn-app full-height full-width"}>Home</NavLink>

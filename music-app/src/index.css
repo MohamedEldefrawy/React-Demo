@@ -29,7 +29,9 @@
     white-space: nowrap;
     text-decoration: none;
 }
-
+.artist-text-color{
+    color: white;
+}
 /*.flip-card {*/
 /*    background-color: transparent;*/
 /*    width: 300px;*/
