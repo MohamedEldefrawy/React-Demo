@@ -7,12 +7,12 @@ import NotFoundComponent from "./components/NotFound";
 
 function App() {
     return (
-        <div>
+        <div className={"cover-img d-flex justify-content-center align-content-center"}>
             <Routes>
                 <Route path='/home' element={<HomeComponent/>}/>
                 <Route path="/" element={<HomeComponent/>}/>
-                <Route path="/Artists/" element={<ArtistsComponent/>}/>
-                <Route path="/Artists/:id" element={<ArtistDetailsComponent/>}/>
+                <Route path="/artists" element={<ArtistsComponent/>}/>
+                <Route path="/artists/:id" element={<ArtistDetailsComponent/>}/>
                 <Route path="*" element={<NotFoundComponent/>}/>
             </Routes>
         </div>

@@ -1,7 +1,9 @@
+import ArtistSummaryComponent from "./ArtistSummaryComponent";
+
 let ArtistsComponent = () => {
     return (
         <div className={"row"}>
-            <h1>Hello from Artists</h1>
+            <ArtistSummaryComponent/>
         </div>
     )
 }
