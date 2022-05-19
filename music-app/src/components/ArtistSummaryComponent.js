@@ -1,25 +1,16 @@
+import {useState} from "react";
 import {NavLink} from "react-router-dom";
 
-let ArtistSummaryComponent = () => {
+let ArtistSummaryComponent = (props) => {
+    console.log(props);
+    let [artist, setArtist] = useState(props.artistDetails);
     return (
-        <div>
-            <div className={"row text-center"}>
-                <NavLink to={"/"} className={"btn-app full-height full-width"}>Home</NavLink>
-            </div>
-            <div className={"row"}>
-                <div className={"col-sm-12 col-md-3 col-lg-3"}>
-                    <div className="card">
-                        <img src="/public/raw/06-Johnny-Cash.jpg" className={"card-img-top"} alt="artist-image"/>
-                        <div className="card-body">
-                            <p className="card-text">Some quick example text to build on the card title and make up the
-                                bulk
-                                of
-                                the
-                                card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div className="card card-shadow">
+            <img src={`/covers/${artist.cover}.jpg`} className={"card-img-top"} alt="artist-image"/>
+            <div className="card-body">
+                <h2 className="card-text text-center">
+                    <NavLink to={`/artists/${artist.id}`}>{artist.name}</NavLink>
+                </h2>
             </div>
         </div>
     )
